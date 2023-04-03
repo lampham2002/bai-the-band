@@ -253,21 +253,32 @@ text-align: center;
     padding-right: 8px;
 }
 .col-half{
-    width: 50%;
+    float:right;
     text-align: center;
+    margin-top: 50px;
+   
     
 }
 
 .form-control {
     padding: 5px;
-   
+   float: left;
 }
+.map{
+    background: rgb(248, 247, 245);
+    height: 850px;
+}
+   
 .map img{
     width: 100%;
 }
+.cold-halff {
+    margin-left: 400px;
+   margin-top: -30px;
+    z-index: 100px;
+}
 #footer{
     text-align: center;
+    margin-top: -100px;
     
 }
-
-
